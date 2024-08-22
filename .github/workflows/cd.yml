@@ -41,4 +41,4 @@ jobs:
         run: ./scripts/migrateup.sh
 
       - name: 'Deploy to Cloud Run'
-        run: 'gcloud run deploy notely --image europe-west6-docker.pkg.dev/t-monument-433308-a2/notely-ar-repo/notely:latest --region europe-west6 --allow-unauthenticated --project notely-389215'
+        run: 'gcloud run deploy notely --image europe-west6-docker.pkg.dev/t-monument-433308-a2/notely-ar-repo/notely:latest --region europe-west6 --allow-unauthenticated --project notely-433309'
